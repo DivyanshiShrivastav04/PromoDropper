@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PromoDropper - Best Deals, Coupons & Promo Codes</title>
+    <meta name="description" content="Find the latest coupons, promo codes, and deals from top retailers. Save money with PromoDropper - your ultimate destination for online discounts.">
+    <meta name="keywords" content="coupons, promo codes, deals, discounts, cashback, savings">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <div class="nav__brand">
+                <a href="/">
+    <img src="uploads/promo dropper.png" alt="Company Logo" width="40%">
+</a>
+            </div>
+            
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="top-deals.html" class="nav__link">Top Deals</a></li>
+                    <li class="nav__item"><a href="categories.html" class="nav__link">Categories</a></li>
+                    <li class="nav__item"><a href="contact.html" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="nav__search">
+    <a href="top-deals.html" class="cta__button" style="
+        display: inline-block;
+        background-color: #2563eb;
+        color: #ffffff;
+        padding: 10px 20px;
+        border-radius: 6px;
+        font-weight: 600;
+        text-decoration: none;
+        transition: background-color 0.3s;
+    " onmouseover="this.style.backgroundColor='#1d4ed8'" onmouseout="this.style.backgroundColor='#2563eb'" id="cta-button">
+        Get Deals Now
+    </a>
+</div>
+
+<style>
+    @media (max-width: 768px) {
+        #cta-button {
+            display: none !important;
+        }
+    }
+</style>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i data-feather="menu"></i>
+            </div>
+        </nav>
+    </header>  
+  
+
+
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i data-feather="menu"></i>
+            </div>
+        </nav>
+    </header>
+
+  
+
+    <!-- Contact Section -->
+    <section class="contact-page">
+        <div class="container">
+            <div class="contact-page__header">
+                <h1 class="contact-page__title">Contact Us</h1>
+                <p class="contact-page__description">Have questions or need help? We'd love to hear from you. Send us a message and we'll respond as soon as possible.</p>
+            </div>
+            
+            <div class="contact-page__content">
+                <div class="contact-info">
+                    <div class="contact-info__card">
+                        <div class="contact-info__icon">
+                            <i data-feather="map-pin"></i>
+                        </div>
+                        <div class="contact-info__content">
+                            <h3 class="contact-info__title">Our Office</h3>
+                            <p class="contact-info__text">111 Deerwood Rd Ste 200<br>San Ramon, CA 94583</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-info__card">
+                        <div class="contact-info__icon">
+                            <i data-feather="phone"></i>
+                        </div>
+                        <div class="contact-info__content">
+                            <h3 class="contact-info__title">Phone</h3>
+                            <p class="contact-info__text"> <a href="tel:+14258828080" style="color: inherit; text-decoration: none;">
+       +1 (425) 882-8080
+    </a><br>Mon-Fri 9AM-6PM PST</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-info__card">
+                        <div class="contact-info__icon">
+                            <i data-feather="mail"></i>
+                        </div>
+                        <div class="contact-info__content">
+                            <h3 class="contact-info__title">Email</h3>
+                            <p class="contact-info__text"><a href="mailto:customer@promodropper.com" style="color: inherit; text-decoration: none;">
+      customer@promodropper.com
+    </a><br>We respond within 24 hours</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-info__card">
+                        <div class="contact-info__icon">
+                            <i data-feather="clock"></i>
+                        </div>
+                        <div class="contact-info__content">
+                            <h3 class="contact-info__title">Business Hours</h3>
+                            <p class="contact-info__text">Monday - Friday: 9:00 AM - 6:00 PM<br>Weekend: 10:00 AM - 4:00 PM</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form class="form" id="contact-form">
+                        <div class="form__group">
+                            <label for="name" class="form__label">Full Name *</label>
+                            <input type="text" id="name" name="name" class="form__input" required>
+                        </div>
+                        
+                        <div class="form__group">
+                            <label for="email" class="form__label">Email Address *</label>
+                            <input type="email" id="email" name="email" class="form__input" required>
+                        </div>
+                        
+                        <div class="form__group">
+                            <label for="phone" class="form__label">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" class="form__input">
+                        </div>
+                        
+                        <div class="form__group">
+                            <label for="subject" class="form__label">Subject *</label>
+                            <select id="subject" name="subject" class="form__select" required>
+                                <option value="">Please select a subject</option>
+                                <option value="general">General Inquiry</option>
+                                <option value="deals">Deal/Coupon Question</option>
+                                <option value="technical">Technical Support</option>
+                                <option value="partnership">Partnership/Business</option>
+                                <option value="feedback">Feedback/Suggestion</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form__group">
+                            <label for="message" class="form__label">Message *</label>
+                            <textarea id="message" name="message" class="form__textarea" rows="6" placeholder="Tell us how we can help you..." required></textarea>
+                        </div>
+                        
+                        <div class="form__group">
+                            <label class="form__checkbox-label">
+                                <input type="checkbox" id="newsletter" name="newsletter" class="form__checkbox">
+                                <span class="form__checkmark"></span>
+                                By submitting this form, you agree to receive text messages from Promo Dropper.
+
+                            </label>
+                        </div>
+                        
+                        <button type="submit" class="btn btn--primary form__submit">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq section">
+        <div class="container">
+            <div class="section__header">
+                <h2 class="section__title">Frequently Asked Questions</h2>
+                <p class="section__subtitle">Find quick answers to common questions</p>
+            </div>
+            
+            <div class="faq__list">
+                <div class="faq__item">
+                    <div class="faq__question">
+                        <h3>How do I use a promo code?</h3>
+                        <i data-feather="chevron-down" class="faq__icon"></i>
+                    </div>
+                    <div class="faq__answer">
+                        <p>Simply click "Get Code" or "Reveal Code" on any deal, copy the code, and apply it during checkout at the retailer's website. The discount will be automatically applied to your order.</p>
+                    </div>
+                </div>
+                
+                <div class="faq__item">
+                    <div class="faq__question">
+                        <h3>Are the deals on PromoDropper really free?</h3>
+                        <i data-feather="chevron-down" class="faq__icon"></i>
+                    </div>
+                    <div class="faq__answer">
+                        <p>Yes! PromoDropper is completely free to use. We partner with retailers to bring you exclusive deals and earn a small commission when you make a purchase, but this never affects the price you pay.</p>
+                    </div>
+                </div>
+                
+                <div class="faq__item">
+                    <div class="faq__question">
+                        <h3>What if a promo code doesn't work?</h3>
+                        <i data-feather="chevron-down" class="faq__icon"></i>
+                    </div>
+                    <div class="faq__answer">
+                        <p>If a code doesn't work, it may have expired or reached its usage limit. Try refreshing the page for updated deals, or contact us and we'll help you find an alternative offer.</p>
+                    </div>
+                </div>
+                
+                <div class="faq__item">
+                    <div class="faq__question">
+                        <h3>How often are new deals added?</h3>
+                        <i data-feather="chevron-down" class="faq__icon"></i>
+                    </div>
+                    <div class="faq__answer">
+                        <p>We add new deals daily! Our team works around the clock to find the latest offers from top retailers. Subscribe to our newsletter to never miss out on fresh deals.</p>
+                    </div>
+                </div>
+                
+                <div class="faq__item">
+                    <div class="faq__question">
+                        <h3>Can I submit a deal or store for inclusion?</h3>
+                        <i data-feather="chevron-down" class="faq__icon"></i>
+                    </div>
+                    <div class="faq__answer">
+                        <p>Absolutely! If you know of a great deal or would like to suggest a store, please contact us with the details. We're always looking to expand our offerings to help you save more.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+      <!-- Footer -->
+   <!-- Footer -->
+     <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__section">
+                    <div class="footer__brand">
+                         <a href="\">
+    <img src="uploads/promo white.png" alt="Company Logo" width="40%">
+</a>
+                        <p class="footer__description">Your ultimate destination for the best deals, coupons, and promo codes from top retailers worldwide.</p>
+                        
+                    </div>
+                </div>
+                
+                <div class="footer__section">
+                    <h4 class="footer__title">Quick Links</h4>
+                    <ul class="footer__links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="top-deals.html">Top Deals</a></li>
+                        <li><a href="categories.html">Categories</a></li>
+                        
+                    </ul>
+                </div>
+                
+               
+                
+                <div class="footer__section">
+                    <h4 class="footer__title">Support</h4>
+                    <ul class="footer__links">
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                        <li><a href="terms-conditions.html">Terms & Conditions</a></li>
+                        <li><a href="disclaimer.html">Disclaimer</a></li>
+                    </ul>
+                </div>
+                 <div class="footer__section">
+                    <h4 class="footer__title">Address</h4>
+                  <ul class="footer__links">
+  <li>
+    <span>111 Deerwood Rd Ste 200, San Ramon, CA 94583</span>
+  </li>
+  <li>
+    <a href="tel:+14258828080" style="color: inherit; text-decoration: none;">
+       +1 (425) 882-8080
+    </a>
+  </li>
+  <li>
+    <a href="mailto:customer@promodropper.com" style="color: inherit; text-decoration: none;">
+      customer@promodropper.com
+    </a>
+  </li>
+</ul>
+
+                </div>
+            </div>
+            
+            <div class="footer__bottom">
+              <p class="footer__copyright">
+  &copy; 2025 <a href="https://www.promodropper.com
+" style="color: inherit; text-decoration: none;">PromoDropper.LLC</a>. All rights reserved.
+</p>
+
+                
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+    <script src="contact.js"></script>
+    <script>
+        feather.replace();
+    </script>
+</body>
+</html>

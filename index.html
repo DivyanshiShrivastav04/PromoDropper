@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PromoDropper - Best Deals, Coupons & Promo Codes</title>
+    <meta name="description" content="Find the latest coupons, promo codes, and deals from top retailers. Save money with PromoDropper - your ultimate destination for online discounts.">
+    <meta name="keywords" content="coupons, promo codes, deals, discounts, cashback, savings">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <div class="nav__brand">
+                <a href="\">
+    <img src="uploads/promo dropper.png" alt="Company Logo" width="40%">
+</a>
+            </div>
+            
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="top-deals.html" class="nav__link">Top Deals</a></li>
+                    <li class="nav__item"><a href="categories.html" class="nav__link">Categories</a></li>
+                    <li class="nav__item"><a href="contact.html" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="nav__search">
+    <a href="top-deals.html" class="cta__button" style="
+        display: inline-block;
+        background-color: #2563eb;
+        color: #ffffff;
+        padding: 10px 20px;
+        border-radius: 6px;
+        font-weight: 600;
+        text-decoration: none;
+        transition: background-color 0.3s;
+    " onmouseover="this.style.backgroundColor='#1d4ed8'" onmouseout="this.style.backgroundColor='#2563eb'" id="cta-button">
+        Get Deals Now
+    </a>
+</div>
+
+<style>
+    @media (max-width: 768px) {
+        #cta-button {
+            display: none !important;
+        }
+    }
+</style>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i data-feather="menu"></i>
+            </div>
+        </nav>
+    </header>  
+  
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero__container container">
+            <div class="hero__content">
+                <h1 class="hero__title">Save More with <span class="highlight">PromoDropper</span></h1>
+                <p class="hero__description">Discover the latest coupons, promo codes, and exclusive deals from your favorite stores. Start saving money today!</p>
+                <div class="hero__buttons">
+                    <a href="#featured-deals" class="btn btn--primary">Browse Deals</a>
+                    <a href="categories.html" class="btn btn--outline">All Categories</a>
+                </div>
+                <div class="hero__stats">
+                    <div class="stat">
+                        <span class="stat__number">10K+</span>
+                        <span class="stat__label">Active Deals</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat__number">500+</span>
+                        <span class="stat__label">Partner Stores</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat__number">$2M+</span>
+                        <span class="stat__label">Savings This Year</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero__image">
+                <img src="uploads/681d1133e0f921746735411.png" alt="Shopping and savings" class="hero__img">
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Categories -->
+   
+            <div class="section__header" style="padding-top: 50px;">
+                <h2 class="section__title">Popular Categories</h2>
+                <p class="section__subtitle">Find deals from your favorite categories</p>
+            </div>
+            
+          <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;">
+
+    <!-- CARD TEMPLATE -->
+    <div style="width: 220px; background: white; border-radius: 12px; padding: 20px; box-shadow: 0 2px 10px rgba(0,0,0,0.05); text-align: center;">
+      <img src="uploads/security-checked.png" alt="Security" style="width: 60px;">
+      <h3 style="margin: 10px 0 5px;">Security Store</h3>
+      <p style="color: #2563eb;">5 coupons</p>
+    </div>
+
+  
+
+    <div style="width: 220px; background: white; border-radius: 12px; padding: 20px; box-shadow: 0 2px 10px rgba(0,0,0,0.05); text-align: center;">
+      <img src="uploads/dog.png" alt="Pet Care" style="width: 60px;">
+      <h3 style="margin: 10px 0 5px;">Pet Care</h3>
+      <p style="color: #2563eb;">0 coupons</p>
+    </div>
+
+    <div style="width: 220px; background: white; border-radius: 12px; padding: 20px; box-shadow: 0 2px 10px rgba(0,0,0,0.05); text-align: center;">
+      <img src="uploads/medical-doctor.png" alt="Health Care" style="width: 60px;">
+      <h3 style="margin: 10px 0 5px;">Health Care</h3>
+      <p style="color: #2563eb;">0 coupons</p>
+    </div>
+
+    <div style="width: 220px; background: white; border-radius: 12px; padding: 20px; box-shadow: 0 2px 10px rgba(0,0,0,0.05); text-align: center;">
+      <img src="uploads/soap.png" alt="Personal Care" style="width: 60px;">
+      <h3 style="margin: 10px 0 5px;">Personal Care</h3>
+      <p style="color: #2563eb;">11 coupons</p>
+    </div>
+
+    <div style="width: 220px; background: white; border-radius: 12px; padding: 20px; box-shadow: 0 2px 10px rgba(0,0,0,0.05); text-align: center;">
+      <img src="uploads/restaurant.png" alt="Foods" style="width: 60px;">
+      <h3 style="margin: 10px 0 5px;">Foods</h3>
+      <p style="color: #2563eb;">17 coupons</p>
+    </div>
+
+   
+
+    <div style="width: 220px; background: white; border-radius: 12px; padding: 20px; box-shadow: 0 2px 10px rgba(0,0,0,0.05); text-align: center;">
+      <img src="uploads/netflix-desktop-app.png" alt="Entertainment" style="width: 60px;">
+      <h3 style="margin: 10px 0 5px;">Entertainment</h3>
+      <p style="color: #2563eb;">0 coupons</p>
+    </div>
+
+    <div style="width: 220px; background: white; border-radius: 12px; padding: 20px; box-shadow: 0 2px 10px rgba(0,0,0,0.05); text-align: center;">
+      <img src="uploads/accounting.png" alt="Financial" style="width: 60px;">
+      <h3 style="margin: 10px 0 5px;">Financial</h3>
+      <p style="color: #2563eb;">8 coupons</p>
+    </div>
+
+  </div>
+     
+
+    <!-- Featured Deals -->
+    <section class="deals section" id="featured-deals">
+        <div class="container">
+            <div class="section__header">
+                <h2 class="section__title">Featured Deals</h2>
+                <p class="section__subtitle">Hand-picked deals with amazing savings</p>
+            </div>
+            
+            <div class="deals__grid">
+                <!-- Deal Card 1 -->
+                <div class="deal__card">
+                    <div class="deal__badge">Featured</div>
+                    <div class="deal__store">
+                        <img src="uploads/card 1.jpeg" alt="Store" class="store__logo">
+                        <span class="store__name">TechZone</span>
+                    </div>
+                    <h3 class="deal__title">50% Off All Laptops & Computers</h3>
+                    <p class="deal__description">Get incredible savings on the latest laptops, desktops, and accessories. Limited time offer!</p>
+                    <div class="deal__savings">Save up to $500</div>
+                    <div class="deal__timer" data-expires="2025-02-15T23:59:59">
+                        <span class="timer__label">Expires in:</span>
+                        <div class="timer__countdown">
+                            <span class="timer__days">00</span>d
+                            <span class="timer__hours">00</span>h
+                            <span class="timer__minutes">00</span>m
+                            <span class="timer__seconds">00</span>s
+                        </div>
+                    </div>
+                    <div class="deal__actions">
+                        <button class="btn btn--primary deal__btn" data-code="TECH50OFF">Get Code</button>
+                        <button class="btn btn--outline deal__btn">View Deal</button>
+                    </div>
+                </div>
+
+                <!-- Deal Card 2 -->
+                <div class="deal__card">
+                    <div class="deal__badge hot">Hot Deal</div>
+                    <div class="deal__store">
+                        <img src="uploads/card2.webp" alt="Store" class="store__logo">
+                        <span class="store__name">FashionHub</span>
+                    </div>
+                    <h3 class="deal__title">Buy 2 Get 1 Free on All Clothing</h3>
+                    <p class="deal__description">Mix and match from our entire collection. Perfect time to update your wardrobe!</p>
+                    <div class="deal__savings">Save up to 33%</div>
+                    <div class="deal__timer" data-expires="2025-02-10T23:59:59">
+                        <span class="timer__label">Expires in:</span>
+                        <div class="timer__countdown">
+                            <span class="timer__days">00</span>d
+                            <span class="timer__hours">00</span>h
+                            <span class="timer__minutes">00</span>m
+                            <span class="timer__seconds">00</span>s
+                        </div>
+                    </div>
+                    <div class="deal__actions">
+                        <button class="btn btn--primary deal__btn">Grab Deal</button>
+                        <button class="btn btn--outline deal__btn">View Store</button>
+                    </div>
+                </div>
+
+                <!-- Deal Card 3 -->
+                <div class="deal__card">
+                    <div class="deal__badge">New</div>
+                    <div class="deal__store">
+                        <img src="uploads/card3.webp" alt="Store" class="store__logo">
+                        <span class="store__name">HomeDecor</span>
+                    </div>
+                    <h3 class="deal__title">30% Off Home & Garden Items</h3>
+                    <p class="deal__description">Transform your living space with our curated collection of home decor and garden essentials.</p>
+                    <div class="deal__savings">Save up to $200</div>
+                    <div class="deal__timer" data-expires="2025-02-20T23:59:59">
+                        <span class="timer__label">Expires in:</span>
+                        <div class="timer__countdown">
+                            <span class="timer__days">00</span>d
+                            <span class="timer__hours">00</span>h
+                            <span class="timer__minutes">00</span>m
+                            <span class="timer__seconds">00</span>s
+                        </div>
+                    </div>
+                    <div class="deal__actions">
+                        <button class="btn btn--primary deal__btn" data-code="HOME30">Reveal Code</button>
+                        <button class="btn btn--outline deal__btn">Shop Now</button>
+                    </div>
+                </div>
+
+                <!-- Deal Card 4 -->
+                
+            </div>
+            
+            <div class="deals__more">
+                <a href="top-deals.html" class="btn btn--outline">View All Deals</a>
+            </div>
+        </div>
+    </section>
+<div style="background: #0057c2; color: white; text-align: center; padding: 100px 20px; position: relative; overflow: hidden;">
+  
+  <!-- Optional background swirl effect -->
+  <div style="position: absolute; inset: 0; background-image: url('your-swirl-background.svg'); background-size: cover; opacity: 0.1; pointer-events: none;"></div>
+
+  <div style="position: relative; z-index: 1;">
+    <h1 style="font-size: 36px; font-weight: 700; margin-bottom: 20px;">
+      We Have a Deal for You !
+    </h1>
+
+    <p style="font-size: 18px; font-weight: 500; max-width: 700px; margin: 0 auto 40px;">
+      With <strong>167,791</strong> offers from <strong>81,101</strong> stores, we have a coupon to z you an average of $21 on your next purchase.
+    </p>
+
+    <a href="top-deals.html" style="display: inline-block; background: white; color: black; font-weight: bold; padding: 12px 24px; border-radius: 10px; text-decoration: none;">
+      Find Your Coupon
+    </a>
+  </div>
+</div>
+
+<div style="background: #f4f4ff; padding: 60px 20px; font-family: Arial, sans-serif;">
+  <h2 style="text-align: left; max-width: 1200px; margin: 0 auto 40px; font-size: 26px; font-weight: 700;">
+    What people say about us !
+  </h2>
+
+  <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; max-width: 1200px; margin: auto;">
+    
+    <!-- Testimonial Card 1 -->
+    <div style="background: white; border-radius: 15px; padding: 30px; width: 300px; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
+      <img src="uploads/65.jpg" style="width: 50px; height: 50px; border-radius: 8px;" alt="Lauren">
+      <p style="font-style: italic; margin: 20px 0;">"I use these codes every time I shop online. Easy to use and always up-to-date!"</p>
+      <p style="margin: 0; font-weight: bold;">lauren</p>
+      <p style="margin: 0; font-style: italic; font-size: 14px;">Web Developer</p>
+    </div>
+
+    <!-- Testimonial Card 2 -->
+    <div style="background: white; border-radius: 15px; padding: 30px; width: 300px; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
+      <img src="uploads/32.jpg" style="width: 50px; height: 50px; border-radius: 8px;" alt="John D">
+      <p style="font-style: italic; margin: 20px 0;">“This site always has the best discounts. Shopping has never been this affordable!”</p>
+      <p style="margin: 0; font-weight: bold;">John D</p>
+      <p style="margin: 0; font-style: italic; font-size: 14px;">Business man</p>
+    </div>
+
+    <!-- Testimonial Card 3 -->
+    <div style="background: white; border-radius: 15px; padding: 30px; width: 300px; box-shadow: 0 2px 8px rgba(0,0,0,0.05);">
+      <img src="uploads/76.jpg" style="width: 50px; height: 50px; border-radius: 8px;" alt="Jenny">
+      <p style="font-style: italic; margin: 20px 0;">"I saved so much on my last shopping spree thanks to these coupon codes! Highly recommend!"</p>
+      <p style="margin: 0; font-weight: bold;">Jenny</p>
+      <p style="margin: 0; font-style: italic; font-size: 14px;">Self employ</p>
+    </div>
+
+  </div>
+</div>
+
+
+    <!-- Newsletter -->
+    <section class="newsletter section">
+        <div class="container">
+            <div class="newsletter__content">
+                <div class="newsletter__text">
+                    <h3 class="newsletter__title">Never Miss a Deal!</h3>
+                    <p class="newsletter__description">Get the latest coupons and exclusive deals delivered straight to your inbox.</p>
+                </div>
+                <div class="newsletter__form">
+                    <input type="email" placeholder="Enter your email address" class="newsletter__input">
+                    <a href="contact.html" class="btn btn--primary newsletter__btn">Contact Us</a>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__section">
+                    <div class="footer__brand">
+                        <a href="\">
+    <img src="uploads/promo white.png" alt="Company Logo" width="40%">
+</a>
+                        <p class="footer__description">Your ultimate destination for the best deals, coupons, and promo codes from top retailers worldwide.</p>
+                        
+                    </div>
+                </div>
+                
+                <div class="footer__section">
+                    <h4 class="footer__title">Quick Links</h4>
+                    <ul class="footer__links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="top-deals.html">Top Deals</a></li>
+                        <li><a href="categories.html">Categories</a></li>
+                        
+                    </ul>
+                </div>
+                
+               
+                
+                <div class="footer__section">
+                    <h4 class="footer__title">Support</h4>
+                    <ul class="footer__links">
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                        <li><a href="terms-conditions.html">Terms & Conditions</a></li>
+                        <li><a href="disclaimer.html">Disclaimer</a></li>
+                    </ul>
+                </div>
+                 <div class="footer__section">
+                    <h4 class="footer__title">Address</h4>
+                  <ul class="footer__links">
+  <li>
+    <span>111 Deerwood Rd Ste 200, San Ramon, CA 94583</span>
+  </li>
+  <li>
+    <a href="tel:+14258828080" style="color: inherit; text-decoration: none;">
+       +1 (425) 882-8080
+    </a>
+  </li>
+  <li>
+    <a href="mailto:customer@promodropper.com" style="color: inherit; text-decoration: none;">
+      customer@promodropper.com
+    </a>
+  </li>
+</ul>
+
+                </div>
+            </div>
+            
+            <div class="footer__bottom">
+              <p class="footer__copyright">
+  &copy; 2025 <a href="https://www.promodropper.com
+" style="color: inherit; text-decoration: none;">PromoDropper.LLC</a>. All rights reserved.
+</p>
+
+                
+            </div>
+        </div>
+    </footer>
+
+    <!-- Code Modal -->
+    <div class="modal" id="code-modal">
+        <div class="modal__content">
+            <span class="modal__close">&times;</span>
+            <h3 class="modal__title">Your Promo Code</h3>
+            <div class="modal__code" id="modal-code">CODE123</div>
+            <button class="btn btn--primary modal__copy" id="copy-code">Copy Code</button>
+            <p class="modal__instruction">Code copied! Apply at checkout to get your discount.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+        feather.replace();
+    </script>
+</body>
+</html>
